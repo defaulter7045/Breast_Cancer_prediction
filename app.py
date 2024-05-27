@@ -5,7 +5,7 @@ import streamlit as st
 
 
 # loading the saved model
-loaded_model = pickle.load(open('D:/New folder/projectbreasr/BreastCancer.sav', 'rb'))
+loaded_model = pickle.load(open('D:/projectbreasr/BreastCancer.sav', 'rb'))
 
 # creating a function for Prediction
 
